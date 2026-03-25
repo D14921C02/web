@@ -61,3 +61,11 @@ footer {
   line-height: 1.6; /* 增加行高，讓換行看起來舒服 */
   word-wrap: break-word; /* 長單字也自動換行 */
 }
+
+.intro-img {
+  display: block;      /* 讓圖片成為區塊元素 */
+  margin: 20px auto;   /* 上下間距 20px，左右自動置中 */
+  width: 200px;        /* 調整圖片大小 */
+  border-radius: 10px; /* 圓角 */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 陰影效果 */
+}
