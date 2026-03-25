@@ -63,9 +63,11 @@ footer {
 }
 
 .intro-img {
-  display: block;      /* 讓圖片成為區塊元素 */
-  margin: 20px auto;   /* 上下間距 20px，左右自動置中 */
-  width: 200px;        /* 調整圖片大小 */
-  border-radius: 10px; /* 圓角 */
+  display: block;          /* 讓圖片成為區塊元素 */
+  margin: 20px auto;       /* 上下 20px，水平置中 */
+  width: 200px;            /* 調整圖片寬度 */
+  height: 200px;           /* 調整圖片高度，保持圓形 */
+  border-radius: 50%;      /* 圓形 */
+  object-fit: cover;       /* 裁切保持比例 */
   box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 陰影效果 */
 }
