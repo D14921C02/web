@@ -55,3 +55,9 @@ footer {
   margin-top: 40px;
   color: #777;
 }
+
+#intro p {
+  max-width: 700px; /* 限制段落最大寬度 */
+  line-height: 1.6; /* 增加行高，讓換行看起來舒服 */
+  word-wrap: break-word; /* 長單字也自動換行 */
+}
